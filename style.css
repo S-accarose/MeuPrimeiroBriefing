@@ -1,0 +1,119 @@
+body
+{
+    background-color: #a7c9b5;
+}
+
+div.imagem{
+    background-position: center;
+    background-image: url(./imagens/fundosite1.png);
+    background-size: cover;
+    object-fit: cover;
+    max-height: 100vh;
+    height: 70vh;
+    width: 100vw;
+    
+}
+
+.texto
+{
+    font-family: 'Copperplate', Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 7vh;
+    color: rgb(1, 39, 26);
+    display: flex;
+    justify-content: center;
+    padding-left: 20vh;
+    padding-top: 17vh;
+}
+
+.texto2
+{
+    font-family: 'Copperplate', Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 10vh;
+    color: rgb(55, 100, 82);
+    display: flex;
+    justify-content: center;
+    padding-left: 20vh;
+}
+
+.texto3
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(129, 88, 0);
+    display: flex;
+    justify-content: center;
+    padding-left: 20vh;
+    padding-top: 0.5vh;
+}
+
+.mostruario
+{
+    padding-left: 25vh;
+}
+
+.corr
+{
+    width: 100%;
+    height: 600px;
+    background-color: #39574d;
+    position: static;
+}
+
+.t1
+{
+    width: 350px;
+    height: 540px;
+}
+
+.barratransicao
+{
+    width: 100%;
+    height: 50px;
+    background-color: #172420;
+    position: relative;
+    animation: slideIn 1s ease-out forwards;
+}
+
+.card-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.txt
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    opacity: 75%;
+}
+
+.corro
+{
+    width: 1870px;
+    height: 950px;
+    background-color: #4f7c6e;
+}
+
+.carrossel
+{
+    align-self: center;
+    padding-top: 5vh;
+}
+
+.embaixo
+{
+    width: 100%;
+    height: 500px;
+    background-color: #172420;
+    position: relative;
+}
