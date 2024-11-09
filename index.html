@@ -14,7 +14,7 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <nav class="navbar bg-body-tertiary">
           <div class="container-fluid">
@@ -101,7 +101,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="p-3">
-                <div class="card">
+                <div class="card card-custom">
                   <img src="./imagens/crueltyfree.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Cruelty Free</h5>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="p-3">
-                <div class="card">
+                <div class="card card-custom">
                   <img src="./imagens/formula.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Formulação Vegana</h5>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="p-3">
-                <div class="card">
+                <div class="card card-custom">
                   <img src="./imagens/custobeneficio.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Custo x Benefício</h5>
@@ -199,63 +199,110 @@
       <p class="txt">Produtos em Destaque</p>
     </div>
 
-    <div class="corr2">
-      <div class="row row-cols-1 row-cols-sm-3 g-6">
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <div class="corr2 container-fluid">
+      <div class="row row-cols-1 row-cols-md-3 g-6">
+        <div class="col-4">
+          <div class="c1">
+            <div class="card card-hover card-custom">
+              <img src="./imagens/basemake.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Base Beauty Blends</h5>
+                <p class="card-text">Base mate de alta cobertura, sensação não oleosa e de toque seco, alta duração e resistente à água.</p>
+                <p class="card-valor">R$ 35,70</p>
+                <div class="d-flex justify-content-center">
+                  <a href="./carrinho.html" class="btn btn-primary card-btn">Adicionar ao Carrinho</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="col-4">
+          <div class="c1">
+            <div class="card card-hover card-custom">
+              <img src="./imagens/cuidadospele.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kit Cuidados com a Pele Beauty Blends</h5>
+                <p class="card-text">Hidratante corporal, desodorante corporal, sérum facial, hidratante facial, lip balm hidratante e gloss.</p>
+                <p class="card-valor">R$ 69,90</p>
+                <div class="d-flex justify-content-center">
+                  <a href="./carrinho.html" class="btn btn-primary card-btn">Adicionar ao Carrinho</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div><div class="col-4">
+          <div class="c1">
+            <div class="card card-hover card-custom">
+              <img src="./imagens/glosslabial.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lip Gloss BBLips</h5>
+                <p class="card-text">Lip Gloss hidratante, fórmula "anti grude", em 25 diferente cores, com e sem glitter.</p>
+                <p class="card-valor">R$ 20,50</p>
+                <div class="d-flex justify-content-center">
+                  <a href="./carrinho.html" class="btn btn-primary card-btn">Adicionar ao Carrinho</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div><div class="col-4">
+          <div class="c2">
+            <div class="card card-hover card-custom">
+              <img src="./imagens/lipbalm.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lip Balm BBLips</h5>
+                <p class="card-text">Lip Balm hidratante, opção brilhante ou fosco, anti ressecamento dos lábios, 15 opções de cor, e também sem pigmento.</p>
+                <p class="card-valor">R$ 15,50</p>
+                <div class="d-flex justify-content-center">
+                  <a href="./carrinho.html" class="btn btn-primary card-btn">Adicionar ao Carrinho</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div><div class="col-4">
+          <div class="c2">
+            <div class="card card-hover card-custom">
+              <img src="./imagens/parcerialoreal.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kit Parceira L'ORÉAL</h5>
+                <p class="card-text">Kit para cuidados com o cabelo, shampoo "low poo", máscara hidratante, creme para finalização e spray finalizador. Para fios com histórico químico, recuperação de danos.</p>
+                <p class="card-valor">R$ 115,90</p>
+                <div class="d-flex justify-content-center">
+                  <a href="./carrinho.html" class="btn btn-primary card-btn">Adicionar ao Carrinho</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div><div class="col-4">
+          <div class="c2">
+            <div class="card card-hover card-custom">
+              <img src="./imagens/serumfacial.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sérum Primer Facial Beauty Blends</h5>
+                <p class="card-text">Sérum hidratante e anti sinais, com extratos calmantes, ação anti oxidante, ação clareadora, disfarce óptico de poros, blindagem para maquiagem e efeito iluminado.</p>
+                <p class="card-valor">R$ 89,90</p>
+                <div class="d-flex justify-content-center">
+                  <a href="./carrinho.html" class="btn btn-primary card-btn">Adicionar ao Carrinho</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+
+    <div class="espaco">
+      <button type="button" onclick="window.location.href='./produtos.html'" class="btn custom-button">Ver mais produtos</button>
+    </div>
+
+    <div class="barratransicao">
+      <p class="txt">Novidades</p>
+    </div>
+
+    <div class="img">
+
+
+      
     </div>
 
   </main>
@@ -276,3 +323,4 @@
 </footer>
 
 </html>
+
