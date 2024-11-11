@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beauty Blends</title>
-  <link rel="icon" href="./imagens/icone.png" type="image/png">
+  <title>Pos. Beauty</title>
+  <link rel="icon" href="./imagens/iconesite.png" type="image/png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
@@ -14,98 +14,106 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-cor">
+
+    <div class="top-banner">
+      <p>Frete grátis em compras acima de R$200 para todo o país.</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 75px;">
       <div class="container-fluid">
-        <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-              <img src="./imagens/icone.png" alt="Logo" width="device-width" height="50" class="d-inline-block align-text-top">
-            </a>
-          </div>
-        </nav>
+        <a class="navbar-brand" href="./index.html">
+          <img src="./imagens/icone.png" alt="Logo" width="auto" style="padding-left: 180px;" height="50" class="d-inline-block align-text-top">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-1" style="padding-right: 20vw;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Página Inicial</a>
+              <a class="nav-link" aria-current="page" href="./index.html">Página Inicial</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./SobreNos.html">Sobre Nós</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Serviços
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./produtos.html">Produtos</a></li>
-                <li><a class="dropdown-item" href="./carrinho.html">Carrinho</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="./contato.html">Contato</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./produtos.html">Corpo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./produtos.html">Boca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Derstaques</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./carrinho.html">Carrinho</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Insira o Texto" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-          </form>
         </div>
       </div>
     </nav>
+    
   </header>
 
   <main>
 
     <div class="imagem"></div>
 
-    <div class="barratransicao"></div>
+    <div class="barratransicao">
+    </div>
 
-
-        <div class="container carrossel">
-          <div class="row row-cols-12">
-            <div class="col-12">
-              
-              <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="./imagens/slide1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Marca de Confiança</h5>
-                      <p>Número um no Brasil, amada por todos.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <img src="./imagens/slide2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Formulação de Impressionar</h5>
-                      <p>Confiável e funcional. Adjetivos que só a nossa fórmula carrega.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./imagens/slide3.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+    <div class="car">
+      <div class="container carrossel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="row row-cols-3 g-0">
+                <div class="col">
+                  <div class="card card-custom" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Próximo</span>
-                </button>
+                <div class="col">
+                  <div class="card card-custom" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card card-custom" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    
+      </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+      </div>
     <div class="barratransicao"></div>
 
     <div class="corr2">
@@ -265,51 +273,7 @@
       </div>
     </div>
 
-    <div class="espaco">
-      <button type="button" onclick="window.location.href='./produtos.html'" class="btn custom-button">Ver mais produtos</button>
-    </div>
-
     <div class="barratransicao"></div>
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="p-3">
-            <div class="card card-custom">
-              <img src="./imagens/crueltyfree.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Cruelty Free</h5>
-                <p class="card-text">Selo de certificação Cruelty Free. Certificação essa que declara o comprometimento da nossa empresa na luta contra exploração animal. #NoMoreCruelty.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="p-3">
-            <div class="card card-custom">
-              <img src="./imagens/formula.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Formulação Vegana</h5>
-                <p class="card-text">Todos os nossos produtos têm origem 100% vegana. Prezamos pelo seu bem-estar como consumidor e, claro, pelo bem-estar dos animais e da natureza. #PreservandoFaunaEFlora.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="p-3">
-            <div class="card card-custom">
-              <img src="./imagens/custobeneficio.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Custo x Benefício</h5>
-                <p class="card-text">Nossa empresa prioriza ao máximo a ideia de custo benefício, visando dar oportunidade de consumo dos nossos produtos, mantendo a qualidade de sempre.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <div class="img"></div>
 
