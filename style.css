@@ -1,48 +1,19 @@
 body
 {
-    background-color: #a7c9b5;
+    background-color: #ffffff;
 }
 
 .imagem{
-    background-position: center;
+    background-position: top;
     background-image: url(./imagens/fundosite1.png);
     background-size: cover;
     object-fit: cover;
     max-height: 100vh;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: left;
-}
-
-.texto
-{
-    font-family: 'Copperplate', Papyrus, fantasy;
-    font-weight: bold;
-    font-size: 7vh;
-    color: rgb(1, 39, 26);
-    padding-left: 20vh;
-    padding-top: 35vh;
-}
-
-.texto2
-{
-    font-family: 'Copperplate', Papyrus, fantasy;
-    font-weight: bold;
-    font-size: 10vh;
-    color: rgb(55, 100, 82);
-    padding-left: 20vh;
-}
-
-.texto3
-{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 20px;
-    color: rgb(1, 39, 26);
-    padding-left: 20vh;
-    padding-top: 0.5vh;
 }
 
 .mostruario
@@ -50,26 +21,11 @@ body
     padding-left: 25vh;
 }
 
-.corr
-{
-    width: 100vw;
-    height: 603px;
-    background-color: #a2b3ad;
-    position: static;
-}
-
-.t1
-{
-    padding-left: 5vh;
-    width: 350px;
-    height: 540px;
-}
-
 .barratransicao
 {
     width: 100vw;
-    height: 50px;
-    background-color: #172420;
+    height: 2px;
+    background-color: #000000;
     position: relative;
     animation: slideIn 1s ease-out forwards;
 }
@@ -83,14 +39,6 @@ body
     justify-content: center;
 }
 
-.corr2
-{
-    width: 100vw;
-    height: 1795px;
-    background-color: #a2b3ad;
-    position: static;
-}
-
 .txt
 {
     font-weight: bold;
@@ -100,13 +48,6 @@ body
     justify-content: center;
     padding-top: 8px;
     opacity: 75%;
-}
-
-.corro
-{
-    width: 100vw;
-    height: 950px;
-    background-color: #39574d;
 }
 
 .carrossel
@@ -136,15 +77,17 @@ body
     padding-top: 5vh;
 }
 
-.card-custom {
-    background-color: rgba(221, 221, 221, 0.616);
-    border: 1px solid #858585;
+.card-custom
+{
+    border: unset;
+    justify-content: left;
+    background-color: rgba(221, 221, 221, 0);
 }
 
 .espaco
 {
+    padding-top: 70px;
     width: 100vw;
-    background-color: #a2b3ad;
     position: static;
     padding-bottom: 10vh;
     padding-left: 84vh;
@@ -153,7 +96,7 @@ body
 
 .custom-button
 {
-    background-color: #8ee4b2c0;
+    background-color: #ffaee7f1;
     border: 3px solid #172420;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
@@ -184,12 +127,22 @@ body
 
 .card-btn
 {
-    width: 260px;
+    width: 250px;
     color: black;
-    background-color: #8ee4b2c0;
+    background-color: #ffaee7f1;
     border: 3px solid #172420;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+}
+
+.card-btn2
+{
+    background-image: url(./imagens/carrin.png);
+    height: 43px;
+    width: 100px;
+    color: black;
+    background-color: #ffaee7f1;
+    border: 3px solid #172420;
 }
 
 .img
@@ -204,46 +157,4 @@ body
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.nov1
-{
-    font-family: 'Copperplate', Papyrus, fantasy;
-    font-weight: bold;
-    font-size: 5vh;
-    color: rgba(0, 136, 88, 0.767);
-    padding-top: 4vh;
-}
-
-.nov2
-{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 25px;
-    color: rgb(209, 209, 209);
-    padding-top: 3vh;
-}
-
-.nov3
-{
-    font-family: 'Copperplate', Papyrus, fantasy;
-    font-weight: bold;
-    font-size: 2vh;
-    color: rgba(0, 136, 88, 0.767);
-    padding-top: 3vh;
-}
-
-.corr2 .col {
-    padding-left: 110px;
-    padding-right: 110px;
-}
-
-.card-btn2
-{
-    background-image: url(./imagens/carrin.png);
-    height: 43px;
-    width: 90px;
-    color: black;
-    background-color: #8ee4b2c0;
-    border: 3px solid #172420;
 }
