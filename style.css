@@ -5,13 +5,21 @@ body
 
 .top-banner
 {
-    background-color: #e4cbafea;
-    color: #333;
+    background-color: #d8cabaea;
     padding-top: 5px;
-    height: 35px;
+    height: 30px;
     text-align: center;
-    font-size: 16px;
-}  
+    font-size: 14px;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+} 
+
+.font-nav
+{
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+    font-size: medium;
+}
 
 .imagem{
     background-position: top;
@@ -19,159 +27,187 @@ body
     background-size: cover;
     object-fit: cover;
     max-height: 100vh;
-    height: 85vh;
-    width: 100vw;
+    height: 87vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-.mostruario
+.cont-config
 {
-    padding-left: 25vh;
+    padding-left: 80px;
+    padding-top: 48vh;
+}
+
+.font-img
+{
+    font-weight: bolder;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.font-img2
+{
+    font-weight: bold;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.coluna2
+{
+    width: 22%;
+}
+
+.img-btn
+{
+    font-family: "Courier New", Courier, monospace;
+    color: #5a5a5a;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 0%;
 }
 
 .barratransicao
 {
-    width: 100vw;
+    width: 100%;
     height: 0.5px;
     background-color: #000000;
     position: relative;
     animation: slideIn 1s ease-out forwards;
 }
 
-.card-text
+.formatacao-itens
 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-}
-
-.txt
-{
-    font-weight: bold;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    padding-top: 8px;
-    opacity: 75%;
 }
 
 .car
 {
-    justify-content: center;
-    width: 55vw;
-    height: 600px;
+    width: 100%;
+    height:760px;
 }
 
-.carrossel
+.card
 {
-    padding-top: 15vh;
-    padding-bottom: 5vh;
-}
-
-.embaixo
-{
-    width: 100vw;
-    height: 500px;
-    background-color: #172420;
-    position: relative;
-}
-
-.c1
-{
-    width: 400px;
-    height: 700px;
-    padding-top: 5vh;
-}
-.c2
-{   
-    width: 400px;
-    height: 700px;
-    padding-top: 5vh;
-}
-
-.card-custom
-{
-    border: unset;
-    justify-content: left;
-    background-color: rgba(221, 221, 221, 0);
-}
-
-.espaco
-{
-    padding-top: 70px;
-    width: 100vw;
-    position: static;
-    padding-bottom: 10vh;
-    padding-left: 84vh;
-    height: 50px;
-}
-
-.custom-button
-{
-    background-color: #ffaee7f1;
-    border: unset;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.card-valor
-{
-    text-align: left;
-    font-family: 'Copperplate', Papyrus, fantasy;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.card-text
-{
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    height: 400px;
 }
 
 .card-title
 {
-    text-align: left;
-    font-family: 'Copperplate', Papyrus, fantasy;
-    font-weight: bolder;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+    font-size: large;
+}
+
+.card-text
+{
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+    font-size: medium;
+}
+
+.swatches-container
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.swatch
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: border 0.2s ease;
+}
+
+.swatch.selected
+{
+    border-color: #000;
+}
+
+.swatch:hover
+{
+    opacity: 0.20;
 }
 
 .card-btn
 {
-    height: 37px;
-    width: 250px;
-    color: black;
-    background-color: #ffaee7a1;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    color: #ffffff;
     border: unset;
+    background-color: #4d4d4dea;
+    width: 100%;
+    border-radius: 0%;
 }
 
-.card-btn2
-{
-    height: 37px;
-    width: 100px;
-    color: black;
-    background-color: #ffaee7a1;
-    border: unset;
-}
-
-.img
+.imagem2
 {
     background-position: center;
     background-image: url(./imagens/fundosite2.png);
     background-size: cover;
     object-fit: cover;
     max-height: 100vh;
-    height: 90vh;
-    width: 100vw;
+    height: 87vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+}
+
+.cont-config2
+{
+    padding-left: 80px;
+    padding-top: 48vh;
+}
+
+.font-img-2
+{
+    font-weight: bolder;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.font-img2-2
+{
+    font-weight: bold;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.imagem3
+{
+    background-position: center;
+    background-image: url(./imagens/fundosite3.png);
+    background-size: cover;
+    object-fit: cover;
+    max-height: 100vh;
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.embaixo
+{
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    position: relative;
 }
